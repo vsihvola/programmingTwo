@@ -17,7 +17,7 @@ public class DayOfYearTest {
 		assertEquals(1, result);
 
 		// Normaalivuosi
-		int results = DayOfYear.dayOfYear(1, 1, 2021);
+		result = DayOfYear.dayOfYear(1, 1, 2021);
 		assertEquals(1, result);
 
 	}
@@ -30,8 +30,8 @@ public class DayOfYearTest {
 		int result = DayOfYear.dayOfYear(12, 31, 2020);
 		assertEquals(366, result);
 		// Normaalivuosi
-		int results = DayOfYear.dayOfYear(12, 31, 2022);
-		assertEquals(365, results);
+		result = DayOfYear.dayOfYear(12, 31, 2022);
+		assertEquals(365, result);
 
 	}
 
@@ -41,8 +41,8 @@ public class DayOfYearTest {
 		int result = DayOfYear.dayOfYear(7, 21, 2020);
 		assertEquals(203, result);
 		// Normaalivuosi
-		int results = DayOfYear.dayOfYear(7, 21, 2022);
-		assertEquals(202, results);
+		result = DayOfYear.dayOfYear(7, 21, 2022);
+		assertEquals(202, result);
 
 	}
 
